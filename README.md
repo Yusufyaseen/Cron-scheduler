@@ -14,6 +14,6 @@
 #### 3- All tasks should be added to a list and then the timer classes get the data of the identified tasks, And there is a loop over the whole list and the jobs can be executed concurrently.
  
 ## Possible future improvements.
-#### - We may adjust a way so the functions can be identified in the running time
+#### - We may adjust a way so the functions can be identified in the running time.
  
 
