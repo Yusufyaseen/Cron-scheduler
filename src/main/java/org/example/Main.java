@@ -16,8 +16,11 @@ import java.util.Timer;
 public class Main {
     public static void main(String[] args) throws Exception {
 
+        // list containing all the tasks
         List<Task> listOfTasks = new LinkedList<>();
 
+        // the expected interval
+        // Helpers.getLocalDateTime(year, month, dayOfMonth, hour, minute, second);
         LocalDateTime localDateTime =
                 Helpers.getLocalDateTime(2022, 10, 24, 20, 29, 50);
         LocalDateTime localDateTime2 =
@@ -25,6 +28,7 @@ public class Main {
         LocalDateTime localDateTime3 =
                 Helpers.getLocalDateTime(2022, 10, 24, 20, 29, 40);
 
+        // identifying jobs/tasks
         TaskFunction job_1 = new Job_1();
         TaskFunction job_2 = new Job_2();
         TaskFunction job_3 = new Job_3();
